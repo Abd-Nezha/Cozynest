@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CozyNest — Home Decor, DIY Ideas & Budget Living Tips</title>
+  <meta name="description" content="Transform your home on a budget! Discover easy DIY decor ideas, room makeovers, and affordable home styling tips that actually work. Updated weekly." />
+  <meta name="keywords" content="home decor ideas, DIY home decor, budget home makeover, affordable interior design, room transformation" />
+  <meta name="author" content="CozyNest" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.cozynest.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CozyNest — Home Decor & DIY Ideas" />
+  <meta property="og:description" content="Transform your home on a budget! Easy DIY decor ideas and room makeovers." />
+  <meta property="og:image" content="https://www.cozynest.com/og-image.jpg" />
+  <meta property="og:url" content="https://www.cozynest.com/" />
+  <meta property="og:site_name" content="CozyNest" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CozyNest — Home Decor & DIY Ideas" />
+  <meta name="twitter:description" content="Budget home makeovers that look expensive. DIY tutorials every week." />
+  <meta name="twitter:image" content="https://www.cozynest.com/twitter-image.jpg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "CozyNest",
+    "description": "Home Decor, DIY Ideas & Budget Living Tips",
+    "url": "https://www.cozynest.com",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CozyNest",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.cozynest.com/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #faf7f2;
+      --warm-white: #fffef9;
+      --clay: #c4785a;
+      --clay-light: #e8a98c;
+      --forest: #3d5a4c;
+      --forest-light: #5a7a69;
+      --charcoal: #2a2a2a;
+      --mid: #666;
+      --light: #999;
+      --border: #e8e0d5;
+      --shadow: rgba(60,40,20,0.08);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Jost', sans-serif;
+      background: var(--cream);
+      color: var(--charcoal);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    .ad-unit {
+      background: linear-gradient(135deg, #f0ebe3, #e8e0d5);
+      border: 1px dashed #c4b8a8;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #999;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      position: relative;
+    }
+    .ad-unit::before {
+      content: "Advertisement";
+      font-size: 10px;
+      color: #bbb;
+      position: absolute;
+      top: 6px;
+      left: 10px;
+    }
+    .ad-unit-leaderboard { width: 100%; height: 90px; }
+    .ad-unit-rectangle { width: 300px; height: 250px; }
+    .ad-unit-inline { width: 100%; height: 90px; margin: 2rem 0; }
+    .topbar {
+      background: var(--forest);
+      color: #c8ddd4;
+      text-align: center;
+      padding: 8px 20px;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+    .topbar a { color: var(--clay-light); text-decoration: none; font-weight: 600; }
+
+    header {
+      background: var(--warm-white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 20px var(--shadow);
+    }
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--charcoal);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .logo span { color: var(--clay); }
+
+    nav { display: flex; gap: 28px; align-items: center; }
+    nav a {
+      text-decoration: none;
+      color: var(--mid);
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--clay); }
+
+    .nav-cta {
+      background: var(--clay);
+      color: white !important;
+      padding: 9px 20px;
+      border-radius: 50px;
+      font-size: 13px !important;
+      font-weight: 600 !important;
+    }
+    .nav-cta:hover { background: #b36848; color: white !important; }
+
+    .hero {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 24px 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .hero-text h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(36px, 5vw, 58px);
+      line-height: 1.15;
+      color: var(--charcoal);
+      margin-bottom: 20px;
+    }
+    .hero-text h1 em {
+      color: var(--clay);
+      font-style: italic;
+    }
+    .hero-text p {
+      font-size: 17px;
+      color: var(--mid);
+      margin-bottom: 32px;
+      font-weight: 300;
+    }
+    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--clay);
+      color: white;
+      padding: 14px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-primary:hover { background: #b36848; transform: translateY(-1px); }
+    .btn-secondary {
+      border: 1.5px solid var(--forest);
+      color: var(--forest);
+      padding: 13px 26px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: all 0.2s;
+    }
+    .btn-secondary:hover { background: var(--forest); color: white; }
+
+    .hero-image {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      background: linear-gradient(135deg, #d4c5b2 0%, #b8a090 50%, #c4b090 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-image-mock {
+      text-align: center;
+      color: rgba(255,255,255,0.8);
+      font-family: 'Playfair Display', serif;
+    }
+    .hero-image-mock .room-icon { font-size: 80px; margin-bottom: 10px; }
+    .hero-image-mock p { font-size: 14px; letter-spacing: 1px; }
+    .hero-badge {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background: white;
+      padding: 12px 18px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--charcoal);
+    }
+    .hero-badge span { color: var(--clay); font-size: 18px; font-weight: 700; }
+
+    /* ─── AD BANNER ─── */
+    .ad-banner-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 40px;
+    }
+
+    .categories-section {
+      background: var(--forest);
+      padding: 50px 24px;
+    }
+    .categories-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .categories-section .section-label { color: var(--clay-light); margin-bottom: 12px; }
+    .categories-section h2 {
+      font-family: 'Playfair Display', serif;
+      color: white;
+      font-size: 32px;
+      margin-bottom: 32px;
+    }
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+    }
+    .category-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 24px 18px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      transition: all 0.2s;
+      backdrop-filter: blur(10px);
+    }
+    .category-card:hover {
+      background: rgba(255,255,255,0.16);
+      transform: translateY(-3px);
+    }
+    .cat-icon { font-size: 36px; margin-bottom: 10px; }
+    .cat-name { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+    .cat-count { font-size: 12px; color: rgba(255,255,255,0.5); }
+
+    .main-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 24px;
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 48px;
+    }
+
+    .featured-label {
+      color: var(--clay);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .featured-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .featured-post {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 30px var(--shadow);
+      margin-bottom: 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .featured-img {
+      background: linear-gradient(135deg, #e8d5c0, #d4b896);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 280px;
+      font-size: 60px;
+    }
+    .featured-content { padding: 36px 32px; }
+    .post-category {
+      display: inline-block;
+      background: #fff0e8;
+      color: var(--clay);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 50px;
+      margin-bottom: 14px;
+      text-decoration: none;
+    }
+    .featured-content h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      line-height: 1.3;
+      color: var(--charcoal);
+      margin-bottom: 14px;
+    }
+    .featured-content h2 a { text-decoration: none; color: inherit; }
+    .featured-content h2 a:hover { color: var(--clay); }
+    .post-meta {
+      font-size: 12px;
+      color: var(--light);
+      margin-bottom: 14px;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+    .featured-content p {
+      font-size: 15px;
+      color: var(--mid);
+      margin-bottom: 22px;
+      line-height: 1.7;
+    }
+    .read-more {
+      color: var(--clay);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .read-more:hover { gap: 10px; }
+
+    .posts-grid-label {
+      color: var(--charcoal);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .posts-grid-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    .post-card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 16px var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .post-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px var(--shadow);
+    }
+    .post-card-img {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+    }
+    .post-card-img.c1 { background: linear-gradient(135deg, #f0e6d3, #e0cdb8); }
+    .post-card-img.c2 { background: linear-gradient(135deg, #d8e8d0, #c4d8bc); }
+    .post-card-img.c3 { background: linear-gradient(135deg, #e8d8d0, #d8c4bc); }
+    .post-card-img.c4 { background: linear-gradient(135deg, #e0e8f0, #c8d8e8); }
+    .post-card-body { padding: 20px; }
+    .post-card-body .post-category { margin-bottom: 10px; }
+    .post-card-body h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 17px;
+      line-height: 1.4;
+      color: var(--charcoal);
+      margin-bottom: 10px;
+    }
+    .post-card-body p { font-size: 13px; color: var(--mid); line-height: 1.6; }
+
+    .affiliate-section {
+      background: white;
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 40px;
+      border: 1px solid var(--border);
+    }
+    .affiliate-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      margin-bottom: 6px;
+      color: var(--charcoal);
+    }
+    .affiliate-subtitle { font-size: 13px; color: var(--mid); margin-bottom: 20px; }
+    .affiliate-disclaimer {
+      font-size: 11px;
+      color: var(--light);
+      margin-bottom: 20px;
+      padding: 8px 14px;
+      background: #faf7f2;
+      border-radius: 8px;
+      border-left: 3px solid var(--clay-light);
+    }
+    .affiliate-products { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .affiliate-product {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      display: block;
+    }
+    .affiliate-product:hover { border-color: var(--clay); box-shadow: 0 4px 16px var(--shadow); }
+    .product-img {
+      height: 90px;
+      background: linear-gradient(135deg, #f5f0ea, #ede5db);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+    .product-name { font-size: 13px; font-weight: 600; color: var(--charcoal); margin-bottom: 4px; }
+    .product-price { font-size: 16px; font-weight: 700; color: var(--clay); margin-bottom: 8px; }
+    .product-old { font-size: 12px; color: var(--light); text-decoration: line-through; margin-left: 6px; font-weight: 400; }
+    .product-rating { font-size: 12px; color: #f59e0b; margin-bottom: 10px; }
+    .product-btn {
+      width: 100%;
+      background: var(--clay);
+      color: white;
+      border: none;
+      padding: 9px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: 'Jost', sans-serif;
+    }
+
+    .sidebar { display: flex; flex-direction: column; gap: 28px; }
+
+    .sidebar-widget {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 2px 16px var(--shadow);
+    }
+    .widget-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: var(--charcoal);
+      margin-bottom: 6px;
+    }
+    .widget-subtitle { font-size: 12px; color: var(--light); margin-bottom: 18px; }
+
+    .email-widget { background: var(--forest); }
+    .email-widget .widget-title { color: white; }
+    .email-widget .widget-subtitle { color: rgba(255,255,255,0.6); }
+    .email-input {
+      width: 100%;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      margin-bottom: 10px;
+      font-family: 'Jost', sans-serif;
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+    .email-input::placeholder { color: rgba(255,255,255,0.4); }
+    .email-btn {
+      width: 100%;
+      background: var(--clay);
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: 'Jost', sans-serif;
+      transition: background 0.2s;
+    }
+    .email-btn:hover { background: #b36848; }
+    .privacy-note { font-size: 11px; color: rgba(255,255,255,0.4); text-align: center; margin-top: 10px; }
+
+    .pinterest-widget { border-top: 4px solid #e60023; }
+    .pin-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+    .pin-item {
+      border-radius: 10px;
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+    .pin-item.p1 { background: linear-gradient(135deg, #f0e6d3, #d4c0a8); }
+    .pin-item.p2 { background: linear-gradient(135deg, #d8e8d0, #b8ccb0); }
+    .pin-item.p3 { background: linear-gradient(135deg, #e8d0d0, #d0b0b0); }
+    .pin-item.p4 { background: linear-gradient(135deg, #d8d8f0, #b8b8d8); }
+    .pinterest-follow {
+      display: block;
+      background: #e60023;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .popular-list { display: flex; flex-direction: column; gap: 14px; }
+    .popular-item {
+      display: flex;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+      align-items: center;
+    }
+    .popular-item:hover .popular-item-title { color: var(--clay); }
+    .popular-num {
+      width: 28px;
+      height: 28px;
+      background: var(--cream);
+      color: var(--clay);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .popular-item-title { font-size: 14px; font-weight: 500; line-height: 1.4; }
+    .popular-item-views { font-size: 11px; color: var(--light); margin-top: 2px; }
+
+    .pinterest-section {
+      background: white;
+      padding: 60px 24px;
+      border-top: 1px solid var(--border);
+    }
+    .pinterest-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .pinterest-inner .section-label { color: #e60023; margin-bottom: 12px; }
+    .pinterest-inner h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: var(--charcoal);
+      margin-bottom: 8px;
+    }
+    .pinterest-inner > p {
+      color: var(--mid);
+      font-size: 16px;
+      margin-bottom: 36px;
+    }
+    .pin-masonry {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+    .pin-card {
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      group: true;
+    }
+    .pin-card-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      transition: transform 0.3s;
+    }
+    .pin-card:hover .pin-card-img { transform: scale(1.03); }
+    .pin-card:nth-child(1) .pin-card-img { height: 260px; background: linear-gradient(135deg, #f0e0cc, #d4b896); }
+    .pin-card:nth-child(2) .pin-card-img { height: 200px; background: linear-gradient(135deg, #d0e8d8, #a8c8b0); }
+    .pin-card:nth-child(3) .pin-card-img { height: 300px; background: linear-gradient(135deg, #e8d0d8, #c8a8b8); }
+    .pin-card:nth-child(4) .pin-card-img { height: 220px; background: linear-gradient(135deg, #d8e0f0, #b0b8d8); }
+    .pin-card:nth-child(5) .pin-card-img { height: 260px; background: linear-gradient(135deg, #f0e8d0, #d8c8a8); }
+    .pin-card-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.6));
+      padding: 24px 14px 14px;
+      color: white;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .pin-card:hover .pin-card-info { opacity: 1; }
+    .pin-card-info span { font-size: 12px; font-weight: 600; }
+    .pin-btn-wrap { text-align: center; margin-top: 32px; }
+    .newsletter-banner {
+      background: linear-gradient(135deg, var(--clay) 0%, #a05840 100%);
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .newsletter-inner { max-width: 560px; margin: 0 auto; }
+    .newsletter-inner h2 {
+      font-family: 'Playfair Display', serif;
+      color: white;
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+    .newsletter-inner p { color: rgba(255,255,255,0.8); font-size: 16px; margin-bottom: 28px; }
+    .newsletter-form { display: flex; gap: 10px; max-width: 440px; margin: 0 auto; }
+    .newsletter-form input {
+      flex: 1;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 50px;
+      font-size: 15px;
+      font-family: 'Jost', sans-serif;
+    }
+    .newsletter-form button {
+      background: var(--charcoal);
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: 'Jost', sans-serif;
+      white-space: nowrap;
+    }
+    .newsletter-perks {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+    .perk { color: rgba(255,255,255,0.7); font-size: 12px; display: flex; align-items: center; gap: 5px; }
+
+    .about-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 24px;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .about-avatar {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #e8d5c0, #c4a888);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+      margin: 0 auto;
+      border: 6px solid white;
+      box-shadow: 0 8px 32px var(--shadow);
+    }
+    .about-text .section-label { color: var(--clay); margin-bottom: 12px; }
+    .about-text h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    .about-text p { color: var(--mid); font-size: 16px; line-height: 1.8; margin-bottom: 16px; }
+    .social-links { display: flex; gap: 12px; margin-top: 8px; }
+    .social-link {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 18px;
+      transition: all 0.2s;
+      color: var(--mid);
+    }
+    .social-link:hover { background: var(--clay); border-color: var(--clay); color: white; }
+
+    footer {
+      background: var(--charcoal);
+      color: rgba(255,255,255,0.6);
+      padding: 50px 24px 24px;
+    }
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      color: white;
+      margin-bottom: 12px;
+    }
+    .footer-logo span { color: var(--clay-light); }
+    .footer-desc { font-size: 14px; line-height: 1.7; margin-bottom: 20px; }
+    .footer-col h4 {
+      color: white;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .footer-col a {
+      display: block;
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 10px;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: var(--clay-light); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .footer-bottom a { color: var(--clay-light); text-decoration: none; }
+    .affiliate-footer-note {
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+      padding: 14px 20px;
+      font-size: 12px;
+      line-height: 1.6;
+      margin-bottom: 32px;
+      border-left: 3px solid var(--clay);
+    }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; gap: 36px; }
+      .hero-image { display: none; }
+      .featured-post { grid-template-columns: 1fr; }
+      .featured-img { min-height: 200px; }
+      .main-section { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .about-section { grid-template-columns: 1fr; text-align: center; }
+      .pin-masonry { grid-template-columns: repeat(3, 1fr); }
+      nav a:not(.nav-cta) { display: none; }
+    }
+    @media (max-width: 600px) {
+      .posts-grid { grid-template-columns: 1fr; }
+      .affiliate-products { grid-template-columns: 1fr; }
+      .newsletter-form { flex-direction: column; }
+      .pin-masonry { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Animations */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hero-text { animation: fadeUp 0.7s ease both; }
+    .hero-image { animation: fadeUp 0.7s 0.2s ease both; }
+  </style>
+
+</head>
+<body>
+
+<div class="topbar">
+  🎉 New Post: <a href="#">17 Budget Room Makeovers Under $50</a> — Read it now!
+</div>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="/">Cozy<span>Nest</span></a>
+    <nav>
+      <a href="/home-decor">Home Decor</a>
+      <a href="/diy">DIY Ideas</a>
+      <a href="/budget-living">Budget Living</a>
+      <a href="/shop">Shop My Picks</a>
+      <a href="/about">About</a>
+      <a href="/newsletter" class="nav-cta">✉ Free Tips</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Make Your Home Look <em>Expensive</em> — Without the Price Tag</h1>
+    <p>Weekly DIY tutorials, budget decor finds, and room transformations that actually work. Join 42,000+ home lovers.</p>
+    <div class="hero-btns">
+      <a href="/latest" class="btn-primary">✨ Start Exploring</a>
+      <a href="/diy-beginners" class="btn-secondary">DIY for Beginners →</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="hero-image-mock">
+      <div class="room-icon">🛋️</div>
+      <p>Beautiful Spaces</p>
+    </div>
+    <div class="hero-badge">
+      <span>42K+</span> Monthly Readers
+    </div>
+  </div>
+</section>
+
+
+<div class="ad-banner-section">
+  <div class="ad-unit ad-unit-leaderboard">
+    <!-- Google AdSense Code Here:
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXX" data-ad-slot="XXXXXXXX" data-ad-format="auto"></ins>
+    -->
+    📢 Google AdSense Banner (728x90) — Replace with your AdSense code
+  </div>
+</div>
+
+<section class="categories-section">
+  <div class="categories-inner">
+    <div class="section-label">Browse Topics</div>
+    <h2>What Are You Decorating Today?</h2>
+    <div class="categories-grid">
+      <a href="/living-room" class="category-card">
+        <div class="cat-icon">🛋️</div>
+        <div class="cat-name">Living Room</div>
+        <div class="cat-count">48 posts</div>
+      </a>
+      <a href="/bedroom" class="category-card">
+        <div class="cat-icon">🛏️</div>
+        <div class="cat-name">Bedroom</div>
+        <div class="cat-count">36 posts</div>
+      </a>
+      <a href="/kitchen" class="category-card">
+        <div class="cat-icon">🍳</div>
+        <div class="cat-name">Kitchen</div>
+        <div class="cat-count">29 posts</div>
+      </a>
+      <a href="/diy-crafts" class="category-card">
+        <div class="cat-icon">🔨</div>
+        <div class="cat-name">DIY Crafts</div>
+        <div class="cat-count">55 posts</div>
+      </a>
+      <a href="/outdoor" class="category-card">
+        <div class="cat-icon">🌿</div>
+        <div class="cat-name">Outdoor</div>
+        <div class="cat-count">22 posts</div>
+      </a>
+      <a href="/budget-finds" class="category-card">
+        <div class="cat-icon">💰</div>
+        <div class="cat-name">Budget Finds</div>
+        <div class="cat-count">41 posts</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="main-section">
+  <main>
+
+
+<div class="featured-label">Featured Post</div>
+<article class="featured-post">
+  <div class="featured-img">🏠</div>
+  <div class="featured-content">
+    <a href="/category/diy" class="post-category">DIY Ideas</a>
+    <!-- SEO: H2 with keyword -->
+    <h2><a href="/17-budget-room-makeovers">17 Budget Living Room Makeovers That Cost Under $50 (With Amazon Finds!)</a></h2>
+    <div class="post-meta">
+      <span>📅 April 14, 2025</span>
+      <span>⏱ 8 min read</span>
+      <span>💬 47 comments</span>
+    </div>
+    <p>Your living room doesn't have to look boring just because you're on a budget. These real makeovers prove you can create a stunning space with thrift store finds and a little creativity...</p>
+    <a href="/17-budget-room-makeovers" class="read-more">Read Full Post →</a>
+  </div>
+</article>
+
+
+<div class="ad-unit ad-unit-inline">
+  📢 AdSense In-Content Ad — Replace with: &lt;ins class="adsbygoogle" data-ad-format="fluid" data-ad-layout="in-article"&gt;&lt;/ins&gt;
+</div>
+
+<div class="posts-grid-label">Latest Posts</div>
+<div class="posts-grid">
+  <a href="/small-bedroom-decor-ideas" class="post-card">
+    <div class="post-card-img c1">🛏️</div>
+    <div class="post-card-body">
+      <span class="post-category">Bedroom</span>
+      <h3>Small Bedroom Decor Ideas That Make Any Room Feel Bigger</h3>
+      <p>12 space-saving tricks that actually work for tiny bedrooms...</p>
+    </div>
+  </a>
+  <a href="/kitchen-makeover-under-100" class="post-card">
+    <div class="post-card-img c2">🍳</div>
+    <div class="post-card-body">
+      <span class="post-category">Kitchen</span>
+      <h3>Kitchen Makeover Under $100: Before & After Transformation</h3>
+      <p>How I refreshed my entire kitchen with peel-and-stick tiles and new hardware...</p>
+    </div>
+  </a>
+  <a href="/diy-wall-art-ideas" class="post-card">
+    <div class="post-card-img c3">🎨</div>
+    <div class="post-card-body">
+      <span class="post-category">DIY Crafts</span>
+      <h3>25 DIY Wall Art Ideas You Can Make This Weekend</h3>
+      <p>No artistic skills needed! These easy projects look like they cost hundreds...</p>
+    </div>
+  </a>
+  <a href="/thrift-store-home-decor" class="post-card">
+    <div class="post-card-img c4">🛒</div>
+    <div class="post-card-body">
+      <span class="post-category">Budget Finds</span>
+      <h3>The Ultimate Thrift Store Home Decor Guide (What to Buy & Skip)</h3>
+      <p>Trained eye tips from someone who furnished an entire apartment for under $300...</p>
+    </div>
+  </a>
+</div>
+
+<div class="affiliate-section">
+  <h2 class="affiliate-title">🛍️ My Favorite Amazon Finds This Month</h2>
+  <p class="affiliate-subtitle">Products I personally use and love for home decor</p>
+  <!-- ✅ FTC Affiliate Disclosure (REQUIRED) -->
+  <div class="affiliate-disclaimer">
+    ⚠️ <strong>Disclosure:</strong> This post contains affiliate links. I earn a small commission if you purchase through these links, at no extra cost to you. I only recommend products I genuinely love. <a href="/affiliate-disclosure" style="color:var(--clay)">Full disclosure →</a>
+  </div>
+  <div class="affiliate-products">
+    <a href="https://amzn.to/YOUR-LINK" class="affiliate-product" rel="nofollow sponsored" target="_blank">
+      <div class="product-img">🕯️</div>
+      <div class="product-name">Luxury Soy Candle Set</div>
+      <div class="product-price">$24.99 <span class="product-old">$39.99</span></div>
+      <div class="product-rating">★★★★★ (2,847)</div>
+      <button class="product-btn">Check Price on Amazon →</button>
+    </a>
+    <a href="https://amzn.to/YOUR-LINK" class="affiliate-product" rel="nofollow sponsored" target="_blank">
+      <div class="product-img">🪴</div>
+      <div class="product-name">Ceramic Plant Pot Set</div>
+      <div class="product-price">$18.99 <span class="product-old">$29.99</span></div>
+      <div class="product-rating">★★★★½ (1,203)</div>
+      <button class="product-btn">Check Price on Amazon →</button>
+    </a>
+    <a href="https://amzn.to/YOUR-LINK" class="affiliate-product" rel="nofollow sponsored" target="_blank">
+      <div class="product-img">🪞</div>
+      <div class="product-name">Bohemian Wall Mirror</div>
+      <div class="product-price">$34.99 <span class="product-old">$55.00</span></div>
+      <div class="product-rating">★★★★★ (956)</div>
+      <button class="product-btn">Check Price on Amazon →</button>
+    </a>
+    <a href="https://amzn.to/YOUR-LINK" class="affiliate-product" rel="nofollow sponsored" target="_blank">
+      <div class="product-img">💡</div>
+      <div class="product-name">LED String Fairy Lights</div>
+      <div class="product-price">$12.99 <span class="product-old">$19.99</span></div>
+      <div class="product-rating">★★★★★ (8,421)</div>
+      <button class="product-btn">Check Price on Amazon →</button>
+    </a>
+  </div>
+</div>
+  </main>
+
+  <aside class="sidebar">
+
+<!-- Ad Rectangle -->
+<div class="ad-unit ad-unit-rectangle">
+  📢 AdSense 300x250 — Sidebar Ad
+</div>
+
+<div class="sidebar-widget email-widget">
+  <h3 class="widget-title">🏡 Get Weekly Decor Tips</h3>
+  <p class="widget-subtitle">Free ideas every Sunday. No spam, ever.</p>
+  <input type="email" class="email-input" placeholder="your@email.com" />
+  <button class="email-btn">Yes! Send Me Tips →</button>
+  <p class="privacy-note">🔒 No spam. Unsubscribe anytime.</p>
+</div>
+
+<div class="sidebar-widget pinterest-widget">
+  <h3 class="widget-title">📌 Follow on Pinterest</h3>
+  <p class="widget-subtitle">230K+ followers · Daily inspiration</p>
+  <div class="pin-grid">
+    <div class="pin-item p1">🛋️</div>
+    <div class="pin-item p2">🌿</div>
+    <div class="pin-item p3">🕯️</div>
+    <div class="pin-item p4">🪞</div>
+  </div>
+  <a href="https://pinterest.com/cozynest" class="pinterest-follow" target="_blank">
+    📌 Follow CozyNest on Pinterest
+  </a>
+</div>
+
+<div class="sidebar-widget">
+  <h3 class="widget-title">🔥 Most Popular</h3>
+  <p class="widget-subtitle">Posts readers love the most</p>
+  <div class="popular-list">
+    <a href="/budget-bedroom-makeover" class="popular-item">
+      <div class="popular-num">1</div>
+      <div>
+        <div class="popular-item-title">$30 Bedroom Makeover That Went Viral</div>
+        <div class="popular-item-views">234,891 views</div>
+      </div>
+    </a>
+    <a href="/amazon-home-finds" class="popular-item">
+      <div class="popular-num">2</div>
+      <div>
+        <div class="popular-item-title">Best Amazon Home Finds Under $25</div>
+        <div class="popular-item-views">189,204 views</div>
+      </div>
+    </a>
+    <a href="/diy-gallery-wall" class="popular-item">
+      <div class="popular-num">3</div>
+      <div>
+        <div class="popular-item-title">How to Create a Gallery Wall for Free</div>
+        <div class="popular-item-views">142,667 views</div>
+      </div>
+    </a>
+    <a href="/small-apartment-decor" class="popular-item">
+      <div class="popular-num">4</div>
+      <div>
+        <div class="popular-item-title">Small Apartment Decor on $200 Budget</div>
+        <div class="popular-item-views">98,112 views</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!-- Ad Rectangle 2 -->
+<div class="ad-unit ad-unit-rectangle">
+  📢 AdSense 300x250 — Sidebar Ad #2
+</div>
+```
+
+  </aside>
+</div>
+
+
+<section class="pinterest-section">
+  <div class="pinterest-inner">
+    <div class="section-label">📌 Pinterest Inspiration</div>
+    <h2>Get Inspired — Save to Your Boards</h2>
+    <p>Every image is optimized for Pinterest with keyword-rich descriptions</p>
+    <div class="pin-masonry">
+      <div class="pin-card">
+        <div class="pin-card-img">🛋️</div>
+        <div class="pin-card-info"><span>Living Room Transformation</span></div>
+      </div>
+      <div class="pin-card">
+        <div class="pin-card-img">🌿</div>
+        <div class="pin-card-info"><span>Boho Plant Shelf Ideas</span></div>
+      </div>
+      <div class="pin-card">
+        <div class="pin-card-img">🛏️</div>
+        <div class="pin-card-info"><span>Cozy Bedroom Aesthetic</span></div>
+      </div>
+      <div class="pin-card">
+        <div class="pin-card-img">🍳</div>
+        <div class="pin-card-info"><span>Budget Kitchen Refresh</span></div>
+      </div>
+      <div class="pin-card">
+        <div class="pin-card-img">🕯️</div>
+        <div class="pin-card-info"><span>Cozy Corner Styling Tips</span></div>
+      </div>
+    </div>
+    <div class="pin-btn-wrap">
+      <a href="https://pinterest.com/cozynest" class="btn-primary" target="_blank">📌 Follow Us on Pinterest for Daily Inspiration</a>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-banner">
+  <div class="newsletter-inner">
+    <h2>Get Free Weekly Decor Ideas</h2>
+    <p>Join 42,000+ home lovers who get our best tips every Sunday morning</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Enter your email..." />
+      <button>Subscribe Free →</button>
+    </div>
+    <div class="newsletter-perks">
+      <span class="perk">✓ Free Room Makeover Guide</span>
+      <span class="perk">✓ Weekly Inspiration</span>
+      <span class="perk">✓ Amazon Deal Alerts</span>
+    </div>
+  </div>
+</section>
+
+
+<section class="about-section">
+  <div>
+    <div class="about-avatar">👩‍🏠</div>
+  </div>
+  <div class="about-text">
+    <div class="section-label">About the Creator</div>
+    <h2>Hi, I'm Sarah! 👋</h2>
+    <p>I'm obsessed with making beautiful homes accessible to everyone — not just those with big budgets. I started CozyNest after furnishing my entire apartment for under $400 and people wouldn't stop asking how I did it.</p>
+    <p>Now I share weekly DIY tutorials, budget finds, and real room transformations to help you create the home of your dreams, no matter your budget.</p>
+    <div class="social-links">
+      <a href="#" class="social-link" title="Pinterest">📌</a>
+      <a href="#" class="social-link" title="Instagram">📸</a>
+      <a href="#" class="social-link" title="YouTube">▶️</a>
+      <a href="#" class="social-link" title="TikTok">🎵</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <!-- Affiliate Disclosure in Footer (FTC Required) -->
+    <div class="affiliate-footer-note">
+      <strong>Affiliate Disclosure:</strong> CozyNest participates in the Amazon Services LLC Associates Program and other affiliate programs. When you click affiliate links and make a purchase, we earn a small commission at no additional cost to you. This helps keep CozyNest free. We only recommend products we genuinely believe in.
+    </div>
+
+<div class="footer-grid">
+  <div>
+    <div class="footer-logo">Cozy<span>Nest</span></div>
+    <p class="footer-desc">Making beautiful homes accessible to everyone. DIY tutorials, budget decor, and room transformations every week.</p>
+    <div style="font-size:13px;color:#666">
+      📌 230K Pinterest · 📸 85K Instagram
+    </div>
+  </div>
+  <div class="footer-col">
+    <h4>Categories</h4>
+    <a href="/living-room">Living Room</a>
+    <a href="/bedroom">Bedroom</a>
+    <a href="/kitchen">Kitchen</a>
+    <a href="/diy-crafts">DIY Crafts</a>
+    <a href="/outdoor">Outdoor</a>
+  </div>
+  <div class="footer-col">
+    <h4>Resources</h4>
+    <a href="/shop">Shop My Picks</a>
+    <a href="/beginners-guide">Beginners Guide</a>
+    <a href="/free-printables">Free Printables</a>
+    <a href="/newsletter">Newsletter</a>
+    <a href="/about">About Sarah</a>
+  </div>
+  <div class="footer-col">
+    <h4>Legal</h4>
+    <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+    <a href="/privacy-policy">Privacy Policy</a>
+    <a href="/terms">Terms of Use</a>
+    <a href="/contact">Contact</a>
+    <a href="/sitemap.xml">Sitemap</a>
+  </div>
+</div>
+
+<div class="footer-bottom">
+  <div>© 2025 CozyNest · All Rights Reserved</div>
+  <div>
+    Made with ❤️ · <a href="/privacy-policy">Privacy</a> · <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+  </div>
+</div>
+
+  </div>
+</footer>
+
+</body>
+</html>
